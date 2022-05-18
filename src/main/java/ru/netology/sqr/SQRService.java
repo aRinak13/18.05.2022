@@ -6,7 +6,7 @@ public class SQRService {
         for (int i = 10; i < 100; i++) {
             int sqrt = i * i;
             if (sqrt >= start && sqrt <= end) {
-                j = j + 1;
+                j++;
             }
         }
         return j;
